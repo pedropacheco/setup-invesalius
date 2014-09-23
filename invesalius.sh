@@ -19,21 +19,10 @@
 # ------------------------------------------------------------------------------
 
 
-# Add repositor.
+# Add repository, update your management packages and install it.
 
-sudo deb http://us.archive.ubuntu.com/ubuntu trusty main universe
-
-# Update your management package.
-
-sudo apt-get upate
-
-# Install InVesalius.
-
-sudo apt-get install invesalius
-
-echo InVesalius installed!
+sudo deb http://us.archive.ubuntu.com/ubuntu trusty main universe && apt-get upate && apt-get install invesalius; echo InVesalius installed!
 
 # Initialize
-
 setup
 

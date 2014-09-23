@@ -23,6 +23,3 @@
 
 sudo deb http://us.archive.ubuntu.com/ubuntu trusty main universe && apt-get upate && apt-get install invesalius; echo InVesalius installed!
 
-# Initialize
-setup
-
